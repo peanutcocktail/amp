@@ -18,6 +18,11 @@ module.exports = {
   update: [{
     method: "shell.run",
     params: {
+      message: "git pull",
+    }
+  }, {
+    method: "shell.run",
+    params: {
       message: "npm install -g @sourcegraph/amp@latest"
     }
   }],
