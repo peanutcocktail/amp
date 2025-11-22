@@ -14,6 +14,11 @@ module.exports = {
     params: {
       message: "npm uninstall -g @sourcegraph"
     }
+  }, {
+    method: "fs.rm",
+    params: {
+      path: "."
+    }
   }],
   update: [{
     method: "shell.run",
