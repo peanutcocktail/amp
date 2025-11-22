@@ -35,7 +35,6 @@ module.exports = {
     id: "run",
     method: "shell.run",
     params: {
-      shell: "{{kernel.path('bin/miniconda/Library/bin/bash.exe')}}",
       message: "amp",
       path: "{{args.cwd}}",
       input: true
